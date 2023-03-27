@@ -15,12 +15,13 @@ const Header = ({ walletToggle, navigationToggle }) => {
         <div className="header_in">
           <div className="trigger_logo">
             <div className="trigger" onClick={() => navigationToggle(true)}>
-              <span />
+              {/* <span /> */}
+              <img src="/img/logo2.png" alt="" />
             </div>
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src="/img/logo.png" alt="" />
+                  <img src="/img/logo.png" width="100px" alt="" />
                 </a>
               </Link>
             </div>
@@ -39,7 +40,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
               </li>
               <li>
                 <Link href="/#collection">
-                  <a className="creative_link">Collection</a>
+                  <a className="creative_link">Anime Dub Collections</a>
                 </Link>
               </li>
               <li>
@@ -57,13 +58,13 @@ const Header = ({ walletToggle, navigationToggle }) => {
           <div className="wallet">
             <a
               href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                walletToggle(true);
-              }}
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   walletToggle(true);
+              // }}
               className="metaportal_fn_button wallet_opener"
             >
-              <span>Connect To Wallet</span>
+              <span>Watch Now</span>
             </a>
           </div>
         </div>

@@ -11,37 +11,37 @@ const Index = () => {
   return (
     <Layout pageTitle={"Home"}>
       {/* Home Section */}
+      <News />
       <HeroSlider />
       {/* !Home Section */}
       {/* Fun Facts */}
-      <FunFacts />
+      {/* <FunFacts /> */}
       {/* !Fun Facts */}
       {/* About Section */}
-      <About />
+      {/* <About /> */}
       {/* !About Section */}
       {/* Section Divider */}
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       {/* !Section Divider */}
       {/* Collection Section */}
-      <Collection />
+      {/* <Collection /> */}
       {/* !Collection Section */}
       {/* Section Divider */}
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       {/* !Section Divider */}
       {/* Section RoadMap */}
       <RoadMapSlider />
       {/* !Section RoadMap */}
       {/* Section Divider */}
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       {/* !Section Divider */}
       {/* Section News */}
-      <News />
       {/* !Section News */}
       {/* Section Divider */}
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       {/* !Section Divider */}
       {/* Section */}
-      <Contact />
+      {/* <Contact /> */}
     </Layout>
   );
 };

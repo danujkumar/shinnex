@@ -1,8 +1,11 @@
 import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HeroSlider = () => {
   // Hero slider
   useEffect(() => {
+    AOS.init();
     const fn_cs_slider = document.querySelectorAll(".fn_cs_slider");
     fn_cs_slider.forEach((element) => {
       let sliderTop = element.getElementsByClassName("slider_top")[0],
@@ -125,10 +128,10 @@ const HeroSlider = () => {
       <div className="container">
         <h3
           className="fn__maintitle big"
-          data-text="Meta Legends"
+          data-text="WATCH OUR SHOWS"
           data-align="center"
         >
-          Meta Legends
+          WATCH OUR SHOWS
         </h3>
         {/* Slider */}
         <div className="fn_cs_slider" data-responsive="on">
@@ -137,63 +140,63 @@ const HeroSlider = () => {
             <ul>
               <li className="prev" data-index={1}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                <img src="/img/aot_poster.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/1.jpg" />
+                    <div className="img" data-bg-img="/img/aot_poster.png" />
                   </div>
                 </div>
               </li>
               <li className="active" data-index={2}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/aot_poster.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/2.jpg" />
+                    <div className="img" data-bg-img="/img/aot_poster.png" />
                   </div>
                 </div>
               </li>
               <li className="next" data-index={3}>
-                <div className="item has_video">
-                  <img src="/img/1x1.jpg" alt="" />
-                  <a
+                <div className="item">
+                  <img src="/img/aot_poster.png" alt="" />
+                  {/* <a
                     className="popup-youtube metaportal_fn_videobutton"
                     href="https://www.youtube.com/embed/7e90gBu4pas"
                   >
                     <img src="/svg/play.svg" alt="" className="fn__svg" />
-                  </a>
+                  </a> */}
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/3.jpg" />
+                    <div className="img" data-bg-img="/img/aot_poster.png" />
                   </div>
                 </div>
               </li>
               <li className="next2" data-index={4}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/aot_poster.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/4.jpg" />
+                    <div className="img" data-bg-img="/img/aot_poster.png" />
                   </div>
                 </div>
               </li>
               <li data-index={5}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/aot_poster.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/5.jpg" />
+                    <div className="img" data-bg-img="/img/aot_poster.png" />
                   </div>
                 </div>
               </li>
               <li data-index={6}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/aot_poster.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/6.jpg" />
+                    <div className="img" data-bg-img="/img/aot_poster.png" />
                   </div>
                 </div>
               </li>
               <li className="prev2" data-index={7}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/aot_poster.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/7.jpg" />
+                    <div className="img" data-bg-img="/img/aot_poster.png" />
                   </div>
                 </div>
               </li>
@@ -220,10 +223,18 @@ const HeroSlider = () => {
         {/* Description */}
         <div className="fn_cs_desc">
           <p>
-            Meta Legends represent a collection of 17,000 legends categorized by
-            level of rarity and generated with hundreds of elements. The Legends
-            are stored as ERC-721 tokens on the Ethereum blockchain and hosted
-            on IPFS.
+            "मैं इस नफ़रत को इस दुनिया के साथ खत्म कर दूंगा"
+            <br />
+            <br />
+            Eren activates The Rumbling in an attempt to destroy the world.
+            Countless Titans begin their march, trampling down everything in
+            their path. Mikasa, Armin, Jean, Connie, Hange, Reiner, Annie,
+            Pieck, and the mortally wounded Levi. The remaining ones challenge
+            the final battle to stop Eren.
+            <br />
+            <br /> Will Eren Get The Freedom he wants For his People? <br />
+            WATCH THIS EPIC SHOWDOWN IN YOUR OWN LANGAUGE IN <b /> HINDI <b />{" "}
+            Only On
           </p>
           <a
             href="https://opensea.io/"
@@ -231,7 +242,7 @@ const HeroSlider = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span>Buy On Opensea</span>
+            <span>PLYTON</span>
           </a>
         </div>
         {/* !Description */}

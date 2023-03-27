@@ -842,7 +842,7 @@ a.full_link{
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: #000;
+    /* background-color: #000; */
     z-index: 5;
     color: #bbb;
 	position: relative;
@@ -986,8 +986,8 @@ a.full_link{
 
 #home{
 	overflow: hidden;
-	padding-top: 179px;
-	padding-bottom: 150px;
+	padding-top: 0px;
+	padding-bottom: 50px;
 }
 
 
@@ -1037,7 +1037,7 @@ a.full_link{
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 10px 0;
+	padding: 6rem 0 3rem 0;
 }
 .slider_nav a > *{
 	margin-right: 10px;
@@ -1985,7 +1985,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	flex-direction: column;
 }
 .fn_cs_news .left_items{
-	width: 50%;
+	width: 100%;
 }
 .fn_cs_news .left_items .blog__item{
 	height: 100%;
@@ -1994,15 +1994,37 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	height: 33.3333%;
 }
 .blog__item{
-	padding: 40px;
+	padding: 20px;
 	border: 1px solid rgba(255,255,255,.15);
 	border-radius: 10px;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.25);
 }
+.blog__item .image a{
+	display: block;
+	width: 100%;
+}
 .blog__item .image{
+	display: block;
+	width: 100% !important;
 	border-radius: 10px;
 	overflow: hidden;
 	margin-bottom: 27px;
+	position: relative;
+}
+.blog-text{
+	position: absolute;
+	top: 0%;
+	left: 17%;
+	font-size: 5rem;
+}
+.blog-text img{
+	width: 400px;
+	margin: 15rem 15rem 3rem 15rem;
+}
+.blog-text p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
 }
 .blog__item .counter{
 	margin-bottom: 15px;
@@ -5708,10 +5730,10 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 /* Since v3.0 */
 #roadmap{
-	padding: 144px 0 150px 0;
+	padding: 50px 0 150px 0;
 }
 #roadmap .fn__maintitle {
-    margin-bottom: 140px;
+    margin-bottom: 50px;
 }
 .fn_cs_roadmap .step_holder{
 	padding: 50px;
@@ -5809,6 +5831,10 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .fn_cs_roadmap .swiper-slide .date{
 	margin: 0;
 	margin-bottom: 7px;
+}
+.item_in .date{
+	font-size: 13px;
+	padding-top: 0.5rem;
 }
 .fn_cs_roadmap .swiper-slide .title{
 	font-size: 18px;

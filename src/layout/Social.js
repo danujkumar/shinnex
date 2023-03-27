@@ -1,7 +1,7 @@
 const Social = () => {
   return (
     <div id="social" className="hold">
-      <div className="social">
+      {/* <div className="social">
         <h4 className="title">Follow Us:</h4>
         <ul>
           <li>
@@ -37,7 +37,7 @@ const Social = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
