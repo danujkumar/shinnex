@@ -3,19 +3,19 @@ const News = () => {
   return (
     <section id="news">
       <div className="container">
-        {/* <h3
+        <h3
           className="fn__maintitle big"
           data-text="Latest Articles"
           data-align="center"
         >
           Latest Articles
-        </h3> */}
-        {/* News Shotcode */}
+        </h3>
+        News Shotcode
         <div className="fn_cs_news">
           <div className="news_part">
             <div className="left_items">
               <div className="blog__item">
-                {/* <div className="counter">
+                <div className="counter">
                   <span className="cc">
                     <span>01</span>
                   </span>
@@ -29,7 +29,7 @@ const News = () => {
                       <a>Reasons Why People Use Discord</a>
                     </Link>
                   </h3>
-                </div> */}
+                </div>
                 <div className="image">
                   <Link href="/blog-single">
                     <a>
@@ -42,16 +42,16 @@ const News = () => {
 We are a funding based production , We provide quality not quantity.</p>
                     </div>
                 </div>
-                {/* <div className="read_more">
+                <div className="read_more">
                   <Link href="/blog-single">
                     <a>
                       <span>Read More</span>
                     </a>
                   </Link>
-                </div> */}
+                </div>
               </div>
             </div>
-            {/* <div className="right_items">
+            <div className="right_items">
               <div className="blog__item">
                 <div className="counter">
                   <span className="cc">
@@ -117,9 +117,9 @@ We are a funding based production , We provide quality not quantity.</p>
                   </Link>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
-          {/* <div className="bottom_part">
+          <div className="bottom_part">
             <div className="left_bot">
               <Link href="/blog">
                 <a className="metaportal_fn_button full">
@@ -134,7 +134,7 @@ We are a funding based production , We provide quality not quantity.</p>
                 semper.
               </p>
             </div>
-          </div> */}
+          </div>
         </div>
         {/* !News Shotcode */}
       </div>

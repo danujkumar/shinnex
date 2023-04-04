@@ -128,10 +128,10 @@ const HeroSlider = () => {
       <div className="container">
         <h3
           className="fn__maintitle big"
-          data-text="WATCH OUR SHOWS"
+          data-text="OUR VOICE ARTISTS"
           data-align="center"
         >
-          WATCH OUR SHOWS
+          OUR VOICE ARTISTS
         </h3>
         {/* Slider */}
         <div className="fn_cs_slider" data-responsive="on">
@@ -221,30 +221,7 @@ const HeroSlider = () => {
         </div>
         {/* !Slider */}
         {/* Description */}
-        <div className="fn_cs_desc">
-          <p>
-            "मैं इस नफ़रत को इस दुनिया के साथ खत्म कर दूंगा"
-            <br />
-            <br />
-            Eren activates The Rumbling in an attempt to destroy the world.
-            Countless Titans begin their march, trampling down everything in
-            their path. Mikasa, Armin, Jean, Connie, Hange, Reiner, Annie,
-            Pieck, and the mortally wounded Levi. The remaining ones challenge
-            the final battle to stop Eren.
-            <br />
-            <br /> Will Eren Get The Freedom he wants For his People? <br />
-            WATCH THIS EPIC SHOWDOWN IN YOUR OWN LANGAUGE IN <b /> HINDI <b />{" "}
-            Only On
-          </p>
-          <a
-            href="https://opensea.io/"
-            className="metaportal_fn_button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>PLYTON</span>
-          </a>
-        </div>
+       
         {/* !Description */}
       </div>
     </section>

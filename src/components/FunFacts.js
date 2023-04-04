@@ -5,30 +5,30 @@ const FunFacts = () => {
     <section id="fun_facts">
       <div className="container">
         <div className="fn_cs_counter_list">
-          <ul>
-            <li>
+          <ul style={{display:"flex", justifyContent:"center"}}>
+            {/* <li>
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={9999} />
+                  <Counter end={1000} />
                   <span className="suffix" />
                 </h3>
-                <p>Total Items</p>
+                <p>Followers</p>
                 <div className="divider" />
               </div>
-            </li>
+            </li> */}
             <li>
               <div className="item">
-                <h3 className="fn__gradient_title">
+                <h3 className="fn__gradient_title" style={{display:"flex", fontSize:"5rem", paddingBottom:"0.5rem"}}>
                   <span className="prefix" />
-                  <Counter end={3.9} decimals={2} />
-                  <span className="suffix">k+</span>
+                  <Counter end={10} />
+                  <span className="suffix">&nbsp;Days Left</span>
                 </h3>
-                <p>Total Owners</p>
-                <div className="divider" />
+                {/* <p>Left</p> */}
+                {/* <div className="divider" /> */}
               </div>
             </li>
-            <li>
+            {/* <li>
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
@@ -38,8 +38,8 @@ const FunFacts = () => {
                 <p>Floor Price (ETH)</p>
                 <div className="divider" />
               </div>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
@@ -49,7 +49,7 @@ const FunFacts = () => {
                 <p>Volume Traded (ETH)</p>
                 <div className="divider" />
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
