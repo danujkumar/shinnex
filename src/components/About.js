@@ -17,7 +17,7 @@ const About = () => {
             </div>
  <FunFacts />
  <SectionDivider/>
-            <div className="fn_cs_desc" data-aos="fade-up" >
+            <div className="fn_cs_desc" >
           <p>
             "मैं इस नफ़रत को इस दुनिया के साथ खत्म कर दूंगा"
             <br />
