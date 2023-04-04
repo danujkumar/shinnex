@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 /*
 /*	Copyright (c) 2022 Frenify
 /*	Author: Frenify
@@ -191,11 +192,12 @@ body{
 	color: var(--bc);
 	position: relative;
 	word-break: break-word;
-	background: rgb(27,18,29);
-	background: -moz-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
+	/* background: rgb(27,18,29); */
+	background-color: #050007;
+	/* background: -moz-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
 	background: -webkit-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
 	background: linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b121d",endColorstr="#1b121d",GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b121d",endColorstr="#1b121d",GradientType=1); */
 }
 body,
 html{
@@ -220,7 +222,7 @@ body:after{
 	height: 270px;
 	top: 42.8%; /* 463px */
 	right: 25%; /* 487px */
-	background-color: var(--mc2);
+	background-color: var();
 	border-radius: 100%;
 	-webkit-filter: blur(150px);
 	-o-filter: blur(150px);
@@ -233,7 +235,7 @@ body:before{
 	height: 270px;
 	top: 27.5%; /* 297px */
 	left: 23.9%; /* 479px */
-	background-color: var(--mc1);
+	background-color: var();
 	border-radius: 100%;
 	-webkit-filter: blur(150px);
 	-o-filter: blur(150px);
